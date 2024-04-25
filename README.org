@@ -3,12 +3,12 @@
 * How to run these scripts?
 
 #+begin_src sh
-  $ npm install # to install all the necessary tools to run scripts
+  $ npm install # install necessary tools
   $ cd scripts
-  $ npx ts-node <script_name>
+  $ npx ts-node SCRIPT_FILENAME
 #+end_src
 
-For example, to run the script ~scripts/testMoveCall.ts~, just run
+For example, to run the script ~testMoveCall.ts~, just run
 
 #+begin_src sh
   $ npx ts-node testMoveCall.ts
