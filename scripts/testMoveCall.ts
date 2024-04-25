@@ -13,11 +13,12 @@ const testMoveCall = async (amount: string | number) => {
 
   txb.moveCall({
     target: "0x2::transfer::public_transfer",
-    typeArguments: ["0x2::sui::SUI"],
+    typeArguments: ["0x2::coin::Coin<0x2::sui::SUI>"],
     arguments: [depositCoin, txb.pure(address, "address")],
   });
 
-  //txb.transferObjects([depositCoin], address);
+  // I know this can be achived using the following. But I am just testing moveCall.
+  // txb.transferObjects([depositCoin], address);
 
   suiClient
     .signAndExecuteTransactionBlock({
