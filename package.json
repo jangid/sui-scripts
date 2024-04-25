@@ -1,0 +1,32 @@
+{
+  "name": "sui-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jangid/sui-scripts.git"
+  },
+  "keywords": [
+    "sui",
+    "scripts",
+    "blockchain",
+    "move"
+  ],
+  "author": "Pankaj Jangid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jangid/sui-scripts/issues"
+  },
+  "homepage": "https://github.com/jangid/sui-scripts#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "@mysten/sui.js": "^0.51.2",
+    "dotenv": "^16.4.5"
+  }
+}
