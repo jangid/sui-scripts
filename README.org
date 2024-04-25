@@ -1,0 +1,17 @@
+#+title: Sample Sui Scripts
+
+* How to run these scripts?
+
+#+begin_src sh
+  $ npm install # to install all the necessary tools to run scripts
+  $ cd scripts
+  $ npx ts-node <script_name>
+#+end_src
+
+For example, to run the script ~scripts/testMoveCall.ts~, just run
+
+#+begin_src sh
+  $ npx ts-node testMoveCall.ts
+#+end_src
+
+NOTE: you are required to set the environment variables PK_B64 and NETWORK. This repository uses ~dotenv~. Hence a ~.env~ file is required in the current working directory.
